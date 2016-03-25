@@ -38,7 +38,7 @@
 				p:idleConnectionTestPeriod="60"
 				p:maxPoolSize="100"
 				p:maxStatements="50"
-				p:minPoolSize="10" />
+				p:minPoolSize="5" />
 
 	<!-- Declare a transaction manager-->
 	<bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager" 
